@@ -7,7 +7,7 @@ spec:
   version: v1
   metadata:
     - name: url
-      value: "tcp://admin:public@mosquitto:1883"
+      value: "tcp://hqpyyshb:bB38GEf93cPG@driver.cloudmqtt.com:18742"
     - name: qos
       value: 1
     - name: retain

@@ -81,3 +81,9 @@ services:
     image: mongo
     container_name: mongodb
     hostname: mongo
+
+  mongo-express:
+    image: mongo-express:latest
+    container_name: mongo-express
+    depends_on:
+      - mongodb
