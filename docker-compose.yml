@@ -78,7 +78,7 @@ services:
     image: eclipse-mosquitto:1.6.10
  
   mongodb:
-    image: mongo
+    image: mongo:4
     container_name: mongodb
     hostname: mongo
 
